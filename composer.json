@@ -3,7 +3,7 @@
     "description":  "Abstraction layer for social bundles",
     "keywords":     ["Social", "Abstract", "Authentication", "FOSUserBundle", "FOS", "FriendsOfSymfony"],
     "type":         "library",
-    "homepage":     "git://github.com/ailove-dev/AbstractSocialBundle.git",
+    "homepage":     "https://github.com/ailove-dev/AbstractSocialBundle.git",
     "authors":      [
         {
             "name":      "Ailove"
