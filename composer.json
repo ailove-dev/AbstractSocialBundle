@@ -1,0 +1,23 @@
+{
+    "name":         "ailove-dev/abstract-social-bundle",
+    "description":  "Abstraction layer for social bundles",
+    "keywords":     ["Social", "Abstract", "Authentication", "FOSUserBundle", "FOS", "FriendsOfSymfony"],
+    "type":         "library",
+    "homepage":     "git://github.com/ailove-dev/AbstractSocialBundle.git",
+    "authors":      [
+        {
+            "name":      "Ailove"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
+        "ailove-dev/ok-php-sdk": "dev-master",
+        "symfony/framework-bundle":       ">=2.0,<2.3-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ailove\\AbstractSocialBundle": ""
+        }
+    },
+    "target-dir": "Ailove/AbstractSocialBundle"
+}
