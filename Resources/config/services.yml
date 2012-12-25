@@ -1,0 +1,10 @@
+parameters:
+  social.class.entry_point: Ailove\AbstractSocialBundle\Security\SocialEntryPoint
+
+services:
+  social.security.authentication.entry_point:
+      class: %social.class.entry_point%
+      abstract: true
+      public: false
+      arguments: [ @service_container ]
+
